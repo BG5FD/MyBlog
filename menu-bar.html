@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <title>菜单--MyBlog</title>
     <link href="static/css-me/menu-bar.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="static/css-me/icon/iconfont.css">
   </head>
   <body class="base">
     <div class="head">
@@ -22,34 +23,26 @@
     </div>
     <div class="saying">
         <p>What is a man's first duty? The answer is brief: To be himself.</p>
-        <p>aaaaaaaaaaaaaaaaaaaaaa</p>
         <p>——Henrik Ibsen</p>
     </div>
-    <div class="clear">
+    <div class="clear"></div>
     <div class="menuBar">
         <div>
             <ul>
-                <li>
-                    首页
-                </li>
-                <li>
-                    全部文章
-                </li>
-                <li>
-                    撰写博客
-                </li>
-                <li>
-                    个人中心
-                </li>
-                <li>
-                    关于本站
-                </li>
+                <li><a href="index.html">首页</a></li>
+                <li><a href="article.html">全部文章</a></li>
+                <li><a href="blog.html">撰写博客</a></li>
+                <li><a href="personalCenter.html">个人中心</a></li>
+                <li><a href="about.html">关于本站</a></li>
             </ul>
         </div>
-        <div>
+        <div class="searchArea">
             <form>
-                <input type="text" />
-                <input type="button" class="serchButton"/>
+                <input type="search"/>
+                <!--<input type="button" class="serchButton"/>-->
+                <div>
+                    <i class="icon iconfont icon-sousuo"></i>
+                </div>
             </form>
         </div>
     </div>
