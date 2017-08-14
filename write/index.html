@@ -3,8 +3,9 @@
   <head>
     <meta charset="utf-8">
     <title>菜单--MyBlog</title>
-    <link href="/static/css-me/base.css" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="/static/css-me/icon/iconfont.css">
+    <link href="/static/css-me/base.css" rel="stylesheet"/>
+    <link rel="stylesheet" type="text/css" href="/static/css-me/icon/iconfont.css"/>
+    <link href="/static/css-me/write.css" rel="stylesheet"/>
   </head>
   <body class="base">
     <div class="head">
@@ -47,6 +48,33 @@
         </div>
     </div>
 
+    <div class="container">
+        <div class="writeForm">
+            <form>
+                <div class="inputDiv">
+                    <label class="inputLabel">标题：</label>
+                    <input type="text" name="title" id="title" class="inputCon"/>
+                    <label class="errorMsg">*标题不能为空</label>
+                </div>
+                <div class="inputDiv">
+                    <label class="inputLabel">类别：</label>
+                    <input type="text" name="title" id="title" class="inputCon"/>
+                </div>
+                <div class="richArea">
+                    <script id="container" name="content" type="text/plain">博客内容...</script>
+                    <!-- 配置文件 -->
+                    <script type="text/javascript" src="/static/utf8-jsp/ueditor.config.js"></script>
+                    <!-- 编辑器源码文件 -->
+                    <script type="text/javascript" src="/static/utf8-jsp/ueditor.all.js"></script>
+                    <!-- 实例化编辑器 -->
+                    <script type="text/javascript">
+                        var ue = UE.getEditor('container',{initialFrameHeight:500});
+                    </script>
+                </div>
+                <input type="submit" value="提交" class="submitButton"/>
+            </form>
+        </div>
+    </div>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="/static/js-me/jquery-3.2.1.min.js"></script>
   </body>

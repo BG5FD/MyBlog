@@ -1,0 +1,131 @@
+.container{
+    margin: 40px 100px;
+}
+h3{
+    margin: 5px 0px 20px 0px;
+}
+h3 a{
+    color: black;
+    text-decoration: none;
+}
+h3 a:hover{
+    color: #9C27B0;
+    text-decoration: underline;
+}
+.leftCon{
+    float: left;
+    width: 230px;
+    background-color: rgba(0, 188, 212, 0.20);
+    position: fixed;
+    padding: 10px;
+    box-shadow: 10px 10px 5px #888888;
+
+}
+.rightCon{
+    margin-left: 300px;
+    background-color: hsla(187, 100%, 42%, 0.19);
+    margin-right: 0px;
+    padding: 20px;
+}
+.labelCategory{
+    font-size: 18px;
+    margin: 20px 0px;
+}
+.labelSpan{
+    background-color: rgba(0, 224, 255, 0.19);
+    margin: 5px 10px;
+    padding: 10px;
+    display: block;
+    border: 2px solid rgba(0, 188, 212, 1);
+    border-radius: 50%;
+    float: left;
+    cursor: pointer;
+    color: black;
+}
+.labelSpan:hover{
+    background-color: rgba(0, 224, 255, 1);
+    margin: 5px 10px;
+    padding: 10px;
+    display: block;
+    border: 2px solid rgba(0, 188, 212, 1);
+    border-radius: 50%;
+    float: left;
+    cursor: pointer;
+    color: white;
+}
+.articleList{
+    margin: 15px 0px;
+}
+.brief{
+    height: 79px;
+    text-indent: 2em;
+    margin: 10px 0px;
+    color: grey;
+}
+.info{
+    float: right;
+}
+.auth{
+    width: 120px;
+    height: 145px;
+    text-align: center;
+    float: left;
+}
+.auth img{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+}
+.article{
+    height: 145px;
+    margin-left: 140px;
+}
+.pageDiv{
+    margin: 50px 0px 0px 0px;
+    text-align: center;
+}
+.bn{
+    width: 80px;
+    height: 40px;
+    display: inline-block;
+    line-height: 40px;
+    text-align: center;
+    border: 1px solid green;
+    cursor: pointer;
+}
+.currentPage{
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    line-height: 40px;
+    text-align: center;
+}
+.otherPage{
+    width: 40px;
+    height: 40px;
+    border: 1px solid green;
+    display: inline-block;
+    line-height: 40px;
+    text-align: center;
+    cursor: pointer;
+}
+.bn:hover{
+    width: 80px;
+    height: 40px;
+    display: inline-block;
+    line-height: 40px;
+    text-align: center;
+    border: 1px solid green;
+    cursor: pointer;
+    background-color: rgba(0, 188, 212, 0.26);
+}
+.otherPage:hover{
+    width: 40px;
+    height: 40px;
+    border: 1px solid green;
+    display: inline-block;
+    line-height: 40px;
+    text-align: center;
+    cursor: pointer;
+    background-color: rgba(0, 188, 212, 0.26);
+}
