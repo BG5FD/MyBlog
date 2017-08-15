@@ -1,0 +1,185 @@
+.container{
+    margin: 40px 100px;
+}
+.leftCon{
+    float: left;
+    width: 230px;
+    background-color: rgba(0, 188, 212, 0.20);
+    padding: 10px;
+
+}
+.rightCon{
+    margin-left: 300px;
+    background-color: hsla(187, 100%, 42%, 0.19);
+    margin-right: 0px;
+    padding: 20px;
+}
+.authInfo{
+    text-align: center;
+    margin: 20px 0px;
+}
+.authInfo img{
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+}
+.labelSpan{
+    background-color: rgba(0, 224, 255, 0.19);
+    margin: 5px 10px;
+    padding: 10px;
+    display: block;
+    border: 2px solid rgba(0, 188, 212, 1);
+    border-radius: 50%;
+    float: left;
+    cursor: pointer;
+    color: black;
+}
+.labelSpan:hover{
+    background-color: rgba(0, 224, 255, 1);
+    margin: 5px 10px;
+    padding: 10px;
+    display: block;
+    border: 2px solid rgba(0, 188, 212, 1);
+    border-radius: 50%;
+    float: left;
+    cursor: pointer;
+    color: white;
+}
+.focus{
+    width: 70px;
+    height: 30px;
+    background-color: red;
+    border: 1px solid red;
+    color: white;
+    display: inline-block;
+    text-align: center;
+    line-height: 30px;
+    margin: -2px;
+    cursor: pointer;
+}
+.focusNum{
+    border: 1px solid red;
+    display: inline-block;
+    text-align: center;
+    line-height: 30px;
+    width: 70px;
+    height: 30px;
+    margin: -2px;
+}
+.focus:hover{
+    width: 70px;
+    height: 30px;
+    background-color: rgba(128, 128, 128, 0.67);
+    border: 1px solid rgba(128, 128, 128, 0.67);
+    color: white;
+    display: inline-block;
+    text-align: center;
+    line-height: 30px;
+    margin: -2px;
+    cursor: pointer;
+}
+.focusDiv{
+    text-align: center;
+    margin: 20px 0px;
+}
+.labelDivHead{
+    font-size: 18px;
+    margin: 20px 0px;
+    font-weight: bold;
+    display: block;
+}
+.recentArticle ul{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+.recentArticle ul li {
+    overflow: hidden;
+    text-overflow:ellipsis;
+    white-space: nowrap;
+    margin: 10px 0px;
+}
+.recentArticle ul li a{
+    color: black;
+    text-decoration: none;
+}
+.recentArticle ul li a:hover{
+    color: black;
+    text-decoration: underline;
+}
+.articleTitle{
+    text-align: center;    
+    margin-bottom: 60px;
+}
+.submitButton{
+    width: 180px;
+    height: 45px;
+    background-color: rgba(82, 206, 20, 0.8);
+    color: white;
+    font-size: 18px;
+    border: rgba(82, 206, 20, 0.8) 1px solid;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.submitButton:hover{
+    width: 180px;
+    height: 45px;
+    background-color: rgba(82, 206, 20, 1);
+    color: white;
+    font-size: 18px;
+    border: rgba(82, 206, 20, 1) 1px solid;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.favourite{
+    text-align: center;
+    margin: 80px 0px 20px 0px;
+}
+.submitFloatDiv{
+    text-align: right;
+}
+.comment{
+    width: 100%;
+    height: 100px;
+    font-size: 18px;
+}
+.commentList{
+    margin: 20px 0px;
+}
+.myComment{
+    margin: 20px 0px;
+}
+.commentList > ul{
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+}
+.commentList > ul > li{
+    border: 1px solid rgba(193, 193, 193, 0.66);
+    padding: 5px;
+}
+.commentAuth{
+    text-align: center;
+    float: left;
+    width: 120px;
+    height: 130px;
+}
+.commentAuth img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.commentRightCon{
+    margin-left: 140px;
+    height: 130px;
+    overflow-y: auto;
+}
+.commentInfo{
+    text-align: right;
+}
+.commentCon{   
+    margin-top: 10px;
+}
+.reply{
+    cursor: pointer;
+}
