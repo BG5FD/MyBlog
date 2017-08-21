@@ -36,3 +36,6 @@
 .active{
     background-color: #7CFF7C;
 }
+.iconSize{
+    font-size: 28px !important;
+}
