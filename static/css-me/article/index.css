@@ -23,7 +23,7 @@ h3 a:hover{
 }
 .rightCon{
     margin-left: 300px;
-    background-color: hsla(187, 100%, 42%, 0.19);
+    background-color: hsla(187, 100%, 42%, 0.20);
     margin-right: 0px;
     padding: 20px;
 }
@@ -33,7 +33,7 @@ h3 a:hover{
     font-weight: bold;
 }
 .labelSpan{
-    background-color: rgba(0, 224, 255, 0.19);
+    background-color: rgba(0, 224, 255, 0.20);
     margin: 5px 10px;
     padding: 10px;
     display: block;
@@ -73,9 +73,18 @@ h3 a:hover{
     float: left;
 }
 .auth img{
-    width: 120px;
-    height: 120px;
+    width: 118px;
+    height: 118px;
     border-radius: 50%;
+    border: 2px solid hsla(187, 100%, 42%, 0);
+    cursor: pointer;
+}
+.auth img:hover{
+    width: 118px;
+    height: 118px;
+    border-radius: 50%;
+    border: 2px solid #ffe500;
+    cursor: pointer;
 }
 .article{
     height: 145px;
