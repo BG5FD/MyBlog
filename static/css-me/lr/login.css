@@ -1,0 +1,148 @@
+.base{
+    margin: 0px;
+    padding: 0px;    
+}
+.imgBack1{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    opacity: 1;
+    animation: imgChange1 5s alternate infinite;
+    -moz-animation: imgChange1 5s alternate infinite;	/* Firefox */
+    -webkit-animation: imgChange1 5s alternate infinite;	/* Safari 和 Chrome */
+    -o-animation: imgChange1 5s alternate infinite;	/* Opera */
+}
+@keyframes imgChange1
+{
+0% {opacity: 1;}
+20% {opacity: 1;}
+80% {opacity: 0;}
+100% {opacity: 0;}
+}
+
+@-moz-keyframes imgChange1 /* Firefox */
+{
+0% {opacity: 1;}
+20% {opacity: 1;}
+80% {opacity: 0;}
+100% {opacity: 0;}
+}
+
+@-webkit-keyframes imgChange1 /* Safari 和 Chrome */
+{
+0% {opacity: 1;}
+20% {opacity: 1;}
+80% {opacity: 0;}
+100% {opacity: 0;}
+}
+
+@-o-keyframes imgChange1 /* Opera */
+{
+0% {opacity: 1;}
+20% {opacity: 1;}
+80% {opacity: 0;}
+100% {opacity: 0;}
+}
+.imgBack2{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    opacity: 0;
+    animation: imgChange2 5s alternate infinite;
+    -moz-animation: imgChange2 5s alternate infinite;	/* Firefox */
+    -webkit-animation: imgChange2 5s alternate infinite;	/* Safari 和 Chrome */
+    -o-animation: imgChange2 5s alternate infinite;	/* Opera */
+}
+@keyframes imgChange2
+{
+0% {opacity: 0;}
+20% {opacity: 0;}
+80% {opacity: 1;}
+100% {opacity: 1;}
+}
+
+@-moz-keyframes imgChange2 /* Firefox */
+{
+0% {opacity: 0;}
+20% {opacity: 0;}
+80% {opacity: 1;}
+100% {opacity: 1;}
+}
+
+@-webkit-keyframes imgChange2 /* Safari 和 Chrome */
+{
+0% {opacity: 0;}
+20% {opacity: 0;}
+80% {opacity: 1;}
+100% {opacity: 1;}
+}
+
+@-o-keyframes imgChange2 /* Opera */
+{
+0% {opacity: 0;}
+20% {opacity: 0;}
+80% {opacity: 1;}
+100% {opacity: 1;}
+}
+.loginDiv{
+    position: absolute;
+    right: 10%;
+    top: 20%;
+    width: 25%;
+    background-color: rgba(0, 188, 212, 0.39);
+    padding: 15px 25px 15px 25px;
+    text-align: center;
+}
+.line{
+    margin-top: 0px;
+}
+.inputLabel{
+    font-size: 18px;
+}
+.inputCon{
+    height: 30px;
+    width: 70%;
+    font-size: 18px;
+    border-radius: 5px;
+    border:rgba(0, 188, 212, 0.39) solid 2px;
+}
+.inputCon:focus{
+    height: 30px;
+    width: 70%;
+    font-size: 18px;
+    border-radius: 5px;
+    border: #00ff00 solid 2px;
+}
+.errorMsg{
+    color: red;
+    /* display: none; */
+    opacity: 0;
+    margin-left: 25%;
+}
+.submitButton{
+    width: 180px;
+    height: 45px;
+    background-color: rgba(82, 206, 20, 0.8);
+    color: white;
+    font-size: 18px;
+    border: rgba(82, 206, 20, 0.8) 1px solid;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.submitButton:hover{
+    width: 180px;
+    height: 45px;
+    background-color: rgba(82, 206, 20, 1);
+    color: white;
+    font-size: 18px;
+    border: rgba(82, 206, 20, 1) 1px solid;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.others{
+    margin-top: 10px;
+    float: right;
+}
+a{
+    color: red;
+}
