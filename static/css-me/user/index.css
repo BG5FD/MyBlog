@@ -1,41 +1,75 @@
-.container{
-    margin: 40px 100px;
+.avatar{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
 }
-.leftCon{
+.imgInfo{
     float: left;
-    width: 230px;
-    background-color: rgba(63, 81, 181, 0.39);
-    padding: 0px;
-    box-shadow: 10px 10px 5px #888888;
+    text-align: center;   
+    margin-right: 50px;
 }
-.rightCon{
-    margin-left: 300px;
-    background-color: hsla(187, 100%, 42%, 0.19);
-    margin-right: 0px;
-    padding: 20px;
-}
-.ulist{
-    list-style-type: none;
-    margin: 0px;
-    padding: 0px;
-}
-.ulist > li{
-    padding: 20px 40px;
+.submitButton{
+    width: 180px;
+    height: 45px;
+    background-color: rgba(82, 206, 20, 0.8);
+    color: white;
+    font-size: 18px;
+    border: rgba(82, 206, 20, 0.8) 1px solid;
+    margin-top: 10px;
     cursor: pointer;
 }
-.ulist > li:hover{
-    padding: 20px 40px;
-    background-color: #7CFF7C;
+.submitButton:hover{
+    width: 180px;
+    height: 45px;
+    background-color: rgba(82, 206, 20, 1);
+    color: white;
+    font-size: 18px;
+    border: rgba(82, 206, 20, 1) 1px solid;
+    margin-top: 10px;
     cursor: pointer;
 }
-.ulist > li > a{
-    text-decoration: none;
+.labelSpan{
+    background-color: rgba(0, 224, 255, 0.20);
+    margin: 5px 10px;
+    padding: 10px;
+    display: block;
+    border: 2px solid rgba(0, 188, 212, 1);
+    border-radius: 50%;
+    float: left;
+    cursor: pointer;
     color: black;
-    font-size: 20px;
 }
-.active{
-    background-color: #7CFF7C;
+.labelSpan:hover{
+    background-color: rgba(0, 224, 255, 1);
+    margin: 5px 10px;
+    padding: 10px;
+    display: block;
+    border: 2px solid rgba(0, 188, 212, 1);
+    border-radius: 50%;
+    float: left;
+    cursor: pointer;
+    color: white;
 }
-.iconSize{
-    font-size: 28px !important;
+.userInfo{
+    padding: 0px 20px;
+}
+.userInfo > div{
+    margin: 25px;
+}
+.labelSpanTJ{
+    margin: 5px 10px;
+    padding: 10px;
+    display: block;
+    float: left;
+    cursor: pointer;
+    color: black;
+}
+.labelSpanTJ i{
+    font-size: 25px;
+    color: #40af14;
+    font-weight: bold;
+}
+.labelSpanTJ i:hover{
+    font-size: 25px;
+    color: #6bd641;
 }

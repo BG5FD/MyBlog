@@ -1,0 +1,48 @@
+.container{
+    margin: 40px 100px;
+}
+.leftCon{
+    float: left;
+    width: 230px;
+    background-color: rgba(0, 188, 212, 0.20);
+    padding: 0px;
+    box-shadow: 10px 10px 5px #888888;
+}
+.rightCon{
+    margin-left: 280px;
+    background-color: hsla(187, 100%, 42%, 0.19);
+    margin-right: 0px;
+    padding: 20px;
+}
+.ulist{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+.ulist > li{
+    padding: 20px 40px;
+    cursor: pointer;
+}
+.ulist > li:hover{
+    padding: 20px 40px;
+    background-color: rgb(255, 135, 125);
+    cursor: pointer;
+    color: white !important;
+}
+.ulist > li:hover a{
+    color: white !important;
+}
+.ulist > li > a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+.active{
+    color: rgb(255, 135, 125) !important;
+}
+.active a{
+    color: rgb(255, 135, 125) !important;
+}
+.iconSize{
+    font-size: 28px !important;
+}
