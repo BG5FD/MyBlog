@@ -1,0 +1,88 @@
+.notice{
+    position: fixed;
+    right: 0px;
+    bottom: 0px;
+    box-shadow: -1px -1px 10px #888888;
+}
+.noticeDiv{
+    cursor: pointer;
+    width: 100px;
+    height: 40px;
+    background-color: #7cff7c;
+    text-align: center;
+    line-height: 40px;
+    color: black;
+    
+    display: none;
+}
+.noticeDiv i{
+    font-size: 28px;
+}
+.noticeNum{
+    width: 33px;
+    height: 30px;
+    background-color: red;
+    border-radius: 50%;
+    color: white;
+    font-weight: bold;
+    margin: -15px;
+}
+.noticeDiv:hover{
+    cursor: pointer;
+    width: 100px;
+    height: 40px;
+    background-color: #7cff7c;
+    text-align: center;
+    line-height: 40px;
+    color: red;
+}
+.noticeWindow{
+    width: 400px;
+    height: 400px;
+    background-color: rgba(247, 249, 247, 0.6);
+    text-align: center;
+    line-height: 40px;
+    animation: noticeShow 0.5s alternate linear;
+    -moz-animation: noticeShow 0.5s alternate linear;	/* Firefox */
+    -webkit-animation: noticeShow 0.5s alternate linear;	/* Safari 和 Chrome */
+    -o-animation: noticeShow 0.5s alternate linear;	/* Opera */
+}
+.noticeTitle{
+    font-size: 20px;
+    background-color: #8d948d;
+    color: white;
+}
+.closeSpan{
+    cursor: pointer;
+    float: right;
+    color: red;
+}
+.noticeList{
+    text-align: left;
+    height: 360px;
+    overflow-y: auto;
+    width: 100%;
+}
+@keyframes noticeShow
+{
+0% {height: 0px;}
+100% {height: 400px;}
+}
+
+@-moz-keyframes noticeShow /* Firefox */
+{
+0% {height: 0px;}
+100% {height: 400px;}
+}
+
+@-webkit-keyframes noticeShow /* Safari 和 Chrome */
+{
+0% {height: 0px;}
+100% {height: 400px;}
+}
+
+@-o-keyframes noticeShow /* Opera */
+{
+0% {height: 0px;}
+100% {height: 400px;}
+}

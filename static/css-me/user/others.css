@@ -72,7 +72,7 @@ h3 a:hover{
     display: inline-block;
     line-height: 40px;
     text-align: center;
-    border: 1px solid green;
+    border: 1px solid #60cf43;
     cursor: pointer;
 }
 .currentPage{
@@ -85,7 +85,7 @@ h3 a:hover{
 .otherPage{
     width: 40px;
     height: 40px;
-    border: 1px solid green;
+    border: 1px solid #60cf43;
     display: inline-block;
     line-height: 40px;
     text-align: center;
@@ -97,19 +97,21 @@ h3 a:hover{
     display: inline-block;
     line-height: 40px;
     text-align: center;
-    border: 1px solid green;
+    border: 1px solid #60cf43;
     cursor: pointer;
-    background-color: rgba(0, 188, 212, 0.26);
+    color: white;
+    background-color: #60cf43;
 }
 .otherPage:hover{
     width: 40px;
     height: 40px;
-    border: 1px solid green;
+    border: 1px solid #60cf43;
     display: inline-block;
     line-height: 40px;
     text-align: center;
     cursor: pointer;
-    background-color: rgba(0, 188, 212, 0.26);
+    color: white;
+    background-color: #60cf43;
 }
 
 .authInfo{
