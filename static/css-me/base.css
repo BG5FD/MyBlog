@@ -1,3 +1,7 @@
+@font-face {
+    font-family: Palace-Script-MT-ME;
+    src: url('/static/css-me/font-family/PALSCRI.TTF');
+}
 .base{
     margin: 0px;
     padding: 0px;  
@@ -56,7 +60,7 @@
 .saying{
     margin-left: 100px;
     margin-right: 100px;
-    font-family: Palace Script MT;
+    font-family: Palace-Script-MT-ME;
     font-size: 40px;
     color: red;
     background-color: #7CFF7C;
